@@ -1,0 +1,10 @@
+<resources>
+    <public />
+    <string name="dmTitleDeviceInfo">Device Info</string>
+    <string name="dmManufacturer">Manufacturer</string>
+    <string name="dmModel">Model</string>
+    <string name="dmAndroidVersion">Android</string>
+    <string name="dmApiVersion">API</string>
+    <string name="dmScreenResolution">Resolution</string>
+    <string name="dmScreenDensity">Density</string>
+</resources>

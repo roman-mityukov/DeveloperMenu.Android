@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dmPrimaryColor">#424242</color>
+    <color name="dmPrimaryDarkColor">#1b1b1b</color>
+    <color name="dmSecondaryColor">#e65100</color>
+    <color name="dmSecondaryDarkColor">#ac1900</color>
+    <color name="dmItemTitleColor">#1b1b1b</color>
+    <color name="dmItemValueColor">#6d6d6d</color>
+</resources>

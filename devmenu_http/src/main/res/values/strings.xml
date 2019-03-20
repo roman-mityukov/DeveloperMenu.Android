@@ -1,0 +1,5 @@
+<resources>
+    <public />
+    <string name="dmTitleHttp">HTTP</string>
+    <string name="dmButtonHttp">Call history</string>
+</resources>

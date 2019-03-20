@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Title" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dmSecondaryDarkColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ItemTitle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dmItemTitleColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ItemValue" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dmItemValueColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

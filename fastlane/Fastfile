@@ -1,0 +1,42 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+
+  crashlytics_api_token = ENV["CRASHLYTICS_API_TOKEN"]
+  crashlytics_build_secret = ENV["CRASHLYTICS_BUILD_SECRET"]
+
+  lane :debug_build do
+    gradle(task: "clean assembleDebug")
+  end
+
+  desc "Submit a new Beta Build to Crashlytics Beta"
+  lane :qa_build do
+    gradle(task: "clean assembleDebug")
+    crashlytics(
+          api_token: crashlytics_api_token,
+          build_secret: crashlytics_build_secret,
+          notifications: "YES",
+          groups:"DeveloperMenuTest"
+        )
+  end
+
+  desc "Upload DeveloperMenu library build to Bintray"
+  lane :upload_to_bintray do
+    gradle(task: "bintrayUpload")
+  end
+end

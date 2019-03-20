@@ -1,0 +1,10 @@
+<resources>
+    <public />
+    <string name="dmTitleLocation">Location</string>
+    <string name="dmButtonShowOnMap">Show on map</string>
+    <string name="dmLabelLatitude">Latitude</string>
+    <string name="dmLabelLongitude">Longitude</string>
+    <string name="dmLabelTime">Time</string>
+    <string name="dmLabelProvider">Provider</string>
+    <string name="dmLabelAccuracy">Accuracy</string>
+</resources>

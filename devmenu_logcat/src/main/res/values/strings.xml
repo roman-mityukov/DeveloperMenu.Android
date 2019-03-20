@@ -1,0 +1,5 @@
+<resources>
+    <public />
+    <string name="dmTitleLogcat">Logcat</string>
+    <string name="dmButtonLogcat">Logs</string>
+</resources>

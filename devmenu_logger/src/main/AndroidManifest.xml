@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.actonica.devmenu.logger">
+
+    <application>
+        <activity
+            android:name=".LoggerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoggerTheme" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/dmFileProviderAuthority"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+    </application>
+</manifest>

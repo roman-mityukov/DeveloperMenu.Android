@@ -1,0 +1,14 @@
+<resources>
+    <string name="dmTitleLogger">Logger</string>
+    <string name="dmButtonLogger">Show last logs</string>
+    <string name="dmButtonClearLogs">Delete all logs</string>
+    <string name="dmTitleClear">Clear</string>
+    <string name="dmTitleShare">Share</string>
+    <string name="dmTitleLogLevel">Log level</string>
+    <string name="dmToastMessageDeletingComplete">Deleting complete</string>
+    <string name="dmToastMessageDeletingFailed">Deleting failed</string>
+    <string name="dmFileProviderAuthority">com.actonica.devmenu.logger.fileprovider</string>
+    <string name="dmErrorEmptyLastLogFile">No log files</string>
+    <string name="dmErrorNoLogFiles">No log files</string>
+    <string name="dmCheckBoxEnableLogging">Enable logging in file</string>
+</resources>

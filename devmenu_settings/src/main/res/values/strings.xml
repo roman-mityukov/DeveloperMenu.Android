@@ -1,0 +1,8 @@
+<resources>
+    <public />
+    <string name="dmTitleSettings">Settings</string>
+    <string name="dmLabelDevelopers">Developers</string>
+    <string name="dmLabelApplication">Application</string>
+    <string name="dmLabelLocation">Location</string>
+    <string name="dmLabelSettings">Settings</string>
+</resources>

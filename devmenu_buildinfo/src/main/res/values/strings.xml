@@ -1,0 +1,9 @@
+<resources>
+    <public />
+    <string name="dmTitleBuildInfo">Build Info</string>
+    <string name="dmLabelVersionCode">Version Code</string>
+    <string name="dmLabelVersionName">Version Name</string>
+    <string name="dmLabelAppPackage">Package</string>
+    <string name="dmLabelRequestedPermissions">Requested\nPermissions</string>
+    <string name="dmLabelGrantedPermissions">Granted\nPermissions</string>
+</resources>

@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.actonica.devmenu">
+
+    <application>
+        <activity
+            android:name="com.actonica.devmenu.DevMenuActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/DevMenuTheme" />
+    </application>
+</manifest>

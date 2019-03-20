@@ -1,0 +1,8 @@
+<resources>
+    <public />
+    <string name="dmTitleBaseUrl">Base URL</string>
+    <string name="dmBaseUrlManualInput">baseUrl manual input</string>
+    <string name="dmBaseUrlManualInputHint">https://google.com/</string>
+    <string name="dmBaseUrlSelection">baseUrl selection</string>
+    <string name="dmErrorInvalidUrl">Invalid URL. Try something like https://example.com/</string>
+</resources>
